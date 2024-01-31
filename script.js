@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputBlockId = document.getElementById('block_id');
     const inputColor = document.getElementById('colour_id');
     const changeButton = document.getElementById('change_button');
-    const resetButton = document.getElementById('reset');
+    const resetButton = document.getElementById('Reset');
 
     // Add event listener to the Change color button
     changeButton.addEventListener('click', function() {
